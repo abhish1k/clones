@@ -111,11 +111,13 @@ h1 {
   position: absolute;
   left: 225px;
   top: 118px;
+  z-index: 1;
 }
 
 .i4{
   position: absolute;
   left: 33px;
+  z-index: 1;
 }
 
 .i5{
@@ -175,21 +177,6 @@ h1 {
   position: relative;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .buttons {
   display: flex;
@@ -526,8 +513,13 @@ p5{
   position: absolute;
   left: 30px;
   top: 40px;
-  z-index: -10;
 }
+
+.woman{
+  position: absolute;
+  z-index: 1;
+}
+
 
 .img2{
   position: absolute;
@@ -561,18 +553,21 @@ p5{
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 
 }
 
 .img3{
   position: absolute;
   top: 281px;
+  z-index: 2;
 }
 
 .img4{
   position: absolute;
   top: 281px;
   left: 281px;
+  z-index: 3;
 }
 
 .live{
